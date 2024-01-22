@@ -1,95 +1,49 @@
-# React.js CRUD App with React Router & Axios
+Autonomous Rover for E-Commerce Deliveries
+Overview
+This project presents an innovative autonomous rover designed for delivering products ordered via a website. It seamlessly integrates an e-commerce platform, a user-friendly owner interface, and a robust Linux backend, utilizing web sockets for real-time communication.
 
-Build a React.js CRUD Application to consume Web API, display and modify data with Router, Axios & Bootstrap.
-
-React Tutorial Application in that:
-- Each Tutorial has id, title, description, published status.
-- We can create, retrieve, update, delete Tutorials.
-- There is a Search bar for finding Tutorials by title.
-
-![react-crud-example-web-api-demo](react-crud-example-web-api-demo.png)
-
-For instruction, please visit:
-> [React CRUD example to consume Web API](https://bezkoder.com/react-crud-web-api/)
-
-Related Posts:
-> [React Typescript CRUD example to consume Web API](https://bezkoder.com/react-typescript-axios/)
-
-> [React Redux CRUD App example with Rest API](https://bezkoder.com/react-redux-crud-example/)
-
-> [React (Hooks) CRUD example to consume Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
-
-> [React Table example: CRUD App with react-table v7](https://bezkoder.com/react-table-example-hooks-crud/)
-
-Using Material UI instead of Bootstrap:
-> [React Material UI examples with a CRUD Application](https://bezkoder.com/react-material-ui-examples-crud/)
-
-More Practice:
-> [React Pagination example](https://bezkoder.com/react-pagination-material-ui/)
-
-> [React File Upload example](https://bezkoder.com/react-file-upload-axios/)
-
-> [React JWT Authentication & Authorization example](https://bezkoder.com/react-jwt-auth/)
-
-> [React + Redux: JWT Authentication & Authorization example](https://bezkoder.com/react-redux-jwt-auth/)
-
-Fullstack with Node.js Express:
-> [React.js + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
-
-> [React.js + Node.js Express + PostgreSQL](https://bezkoder.com/react-node-express-postgresql/)
-
-> [React.js + Node.js Express + MongoDB](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-Fullstack with Spring Boot:
-> [React.js + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
-
-> [React.js + Spring Boot + PostgreSQL](https://bezkoder.com/spring-boot-react-postgresql/)
-
-> [React.js + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
-
-Fullstack with Django:
-
-> [React.js + Django Rest Framework](https://bezkoder.com/django-react-axios-rest-framework/)
-
-Serverless:
-> [React Firebase CRUD App with Realtime Database](https://bezkoder.com/react-firebase-crud/)
-
-> [React Firestore CRUD App example | Firebase Cloud Firestore](https://bezkoder.com/react-firestore-crud/)
-
-Integration (run back-end & front-end on same server/port)
-> [How to integrate React.js with Spring Boot](https://bezkoder.com/integrate-reactjs-spring-boot/)
-
-> [Integrate React with Node.js Express on same Server/Port](https://bezkoder.com/integrate-react-express-same-server-port/)
+Features
+E-Commerce Integration: Seamless connection with online shopping platforms for order processing.
+Autonomous Navigation: Advanced algorithms for safe and efficient delivery.
+Real-Time Tracking: Live updates for users to track the rover's location and delivery status.
+Owner Interface: Intuitive controls and insights for rover management.
+Getting Started
+Prerequisites
+Linux Operating System
+Web Sockets Enabled
+Compatible with modern web browsers (Chrome, Firefox, Safari)
+Installation
+Clone the repository:
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Set port
-.env
-```
-PORT=8081
-```
-
-## Project setup
-
-In the project directory, you can run:
-
-```
-npm install
-# or
-yarn install
-```
-
-or
-
-### Compiles and hot-reloads for development
-
-```
-npm start
-# or
-yarn start
-```
-
-Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
-
-The page will reload if you make edits.
+git clone [[repository URL]](https://github.com/Chimpfreak/AutonomusRover)
+Install dependencies:
+    "Axios": "^0.27.2",
+    "bootstrap": "^4.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "5.0.1"
+  Just Clone the repo and npm install!
+User Interface (UI)
+Accessing the UI
+Log in with credentials provided during the registration process.
+Features
+Order Tracking: View the real-time status of your order.
+Delivery Scheduling: Choose preferred delivery slots.
+Feedback System: Rate and review the delivery experience.
+Troubleshooting
+Common issues and solutions related to the UI.
+Owner Interface
+Accessing the Owner Interface
+Requires owner-specific credentials for login.
+Features
+Rover Control: Manual override and control settings.
+Maintenance Alerts: Notifications for routine checks and urgent maintenance needs.
+Analytics Dashboard: Insights on delivery times, distances, and user ratings.
+Configuration
+Steps to configure various settings for the rover's operation.
+Troubleshooting
+Common issues faced by owners and solutions.
+Acknowledgments
+Mention any collaborators, third-party libraries, or any other resource that played a significant role in this project.
